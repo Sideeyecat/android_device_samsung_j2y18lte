@@ -15,3 +15,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_j2y18lte.mk
+
+COMMON_LUNCH_CHOICES := \
+    aosp_j2y18lte-eng \
+    aosp_j2y18lte-user \
+    aosp_j2y18lte-userdebug
