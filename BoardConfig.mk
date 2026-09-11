@@ -13,6 +13,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+
+#fix no 1
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
+
 # Kernel
 TARGET_KERNEL_CONFIG := j2y18lte_defconfig
 
